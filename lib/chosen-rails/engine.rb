@@ -1,6 +1,6 @@
 module Chosen
   module Rails
-    class Engine4 < ::Rails::Engine
+    class Engine < ::Rails::Engine
       config.assets.precompile += %w(
         chosen-sprite*.png
       )
